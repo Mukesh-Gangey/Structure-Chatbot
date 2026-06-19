@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:1000px;
+    height:600px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    display:flex;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.left-panel{
+    width:50%;
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:40px;
+}
+
+.logo i{
+    font-size:30px;
+}
+
+.left-panel h1{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.left-panel p{
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+.left-panel img{
+    width:250px;
+    align-self:center;
+}
+
+.login-card{
+    width:50%;
+    padding:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.login-card h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.login-card p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.input-box{
+    display:flex;
+    align-items:center;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:12px;
+    margin-bottom:20px;
+}
+
+.input-box i{
+    color:#777;
+    margin-right:10px;
+}
+
+.input-box input{
+    border:none;
+    outline:none;
+    width:100%;
+    font-size:16px;
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.options a{
+    color:#4f46e5;
+    text-decoration:none;
+}
+
+.login-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.login-btn:hover{
+    opacity:0.9;
+}
+
+.divider{
+    text-align:center;
+    margin:25px 0;
+    color:#888;
+}
+
+.google-btn{
+    width:100%;
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    background:white;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.google-btn i{
+    color:red;
+    margin-right:10px;
+}
